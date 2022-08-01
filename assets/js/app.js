@@ -4,9 +4,9 @@ const textHeading = document.querySelector(".text-heading");
 const textDescription = document.querySelector(".text-description");
 
 var arrSliders = [
-    "url('/f8-html/TheBand_Website/assets/img/slider/slider1.jpg') top center / cover no-repeat",
-    "url('/f8-html/TheBand_Website/assets/img/slider/slider2.jpg') top center / cover no-repeat",
-    "url('/f8-html/TheBand_Website/assets/img/slider/slider3.jpg') top center / cover no-repeat"
+    "url('../TheBand_Website/assets/img/slider/slider1.jpg') top center / cover no-repeat",
+    "url('../TheBand_Website/assets/img/slider/slider2.jpg') top center / cover no-repeat",
+    "url('../TheBand_Website/assets/img/slider/slider3.jpg') top center / cover no-repeat"
 ];
 var arrHeadSliders = ["Chicago", "Los Angeles", "New York"];
 var arrDescSliders = ["Thank you, Chicago - A night we won't forget.", "We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum."];
