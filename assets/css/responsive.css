@@ -1,0 +1,220 @@
+/* PC */
+
+@media (min-width: 1024px) {}
+
+
+/* TABLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #nav,
+    .subnav {
+        font-size: 20px;
+    }
+    #content .content-section {
+        width: 100%;
+        padding: 100px 20px 140px;
+    }
+    #content .section-heading {
+        font-weight: normal;
+    }
+    .place-body {
+        background-color: #fff;
+        font-size: 18px;
+        padding: 30px 20px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+    .contact-form .form-control {
+        font-size: 17px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 740px) {
+    html {
+        display: inline-block;
+    }
+    body {
+        display: inline-block;
+    }
+    #main {
+        display: inline-block;
+        margin-top: 44px;
+    }
+    #header {
+        height: 94px;
+    }
+    .overflow {
+        overflow: hidden;
+    }
+    #nav,
+    .subnav {
+        height: 100%;
+        display: flex;
+        line-height: 1.6px;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-content: flex-start;
+        background: #000;
+    }
+    .subnav {
+        height: 120px;
+        width: 100%;
+    }
+    #nav>li:first-child {
+        width: 22%;
+    }
+    #nav>li {
+        display: block;
+        height: 100%;
+        font-size: 34px;
+        background: #000;
+    }
+    #nav>li>a {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 22px 34px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .search-btn {
+        display: none;
+    }
+    .mobile-menu-btn {
+        top: 0;
+        right: 0;
+        display: block;
+        color: #fff;
+        padding: 28px 40px;
+        height: 100%;
+        font-size: 40px;
+        position: absolute;
+    }
+    .mobile-menu-btn:active {
+        color: #000;
+        background: #ccc;
+    }
+    #content .content-section {
+        padding: 200px 30px 200px;
+    }
+    #content .section-heading {
+        font-size: 64px;
+        font-weight: 100;
+    }
+    #content .section-sub-heading {
+        font-size: 36px;
+        margin-top: 28px;
+    }
+    #content .about-text {
+        font-size: 32px;
+        margin-top: 35px;
+    }
+    .col {
+        float: none;
+    }
+    .col-third {
+        width: 100%;
+    }
+    #content .member-name {
+        font-size: 35px;
+        margin: 70px 0px 15px;
+    }
+    #content .member-img {
+        width: 70%;
+    }
+    #content .section-sub-heading {
+        font-size: 28px;
+        margin: 40px 0 70px;
+    }
+    .tickets-list li {
+        font-size: 32px;
+        padding: 21px 36px;
+    }
+    .tickets-list .quantity {
+        width: 44px;
+        height: 44px;
+        line-height: 40px;
+    }
+    .col-third {
+        margin-bottom: 70px;
+    }
+    .places-list {
+        margin-top: 100px;
+    }
+    .place-heading {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .place-time {
+        margin: 30px 0 35px;
+    }
+    .place-body {
+        font-size: 34px;
+        padding: 30px;
+    }
+    .btn {
+        font-size: 30px;
+        padding: 20px 26px;
+        margin-top: 45px;
+    }
+    .contact-infor {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .contact-infor {
+        font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 70px;
+    }
+    .contact-infor i[class*="ti-"] {
+        margin-right: 40px;
+    }
+    .contact-form .form-control {
+        padding: 20px;
+        border: 1px solid #ccc;
+        width: 100%;
+        font-size: 30px;
+    }
+    #footer {
+        padding: 140px 16px;
+    }
+    #footer .socials-list {
+        font-size: 44px;
+    }
+    #footer .copyright {
+        margin-top: 28px;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 30px;
+    }
+    .modal-close {
+        font-size: 40px;
+    }
+    .modal-header {
+        height: 240px;
+        font-size: 70px;
+    }
+    .modal-lable {
+        display: block;
+        font-size: 30px;
+        margin: 20px 0 20px;
+    }
+    .modal-input {
+        padding: 20px;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    #buy-tickets {
+        font-size: 34px;
+        padding: 24px;
+    }
+    .modal-help {
+        font-size: 30px;
+    }
+}
