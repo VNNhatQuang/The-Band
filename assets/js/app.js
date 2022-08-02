@@ -4,9 +4,9 @@ const textHeading = document.querySelector(".text-heading");
 const textDescription = document.querySelector(".text-description");
 
 var arrSliders = [
-    "url('../TheBand_Website/assets/img/slider/slider1.jpg') top center / cover no-repeat",
-    "url('../TheBand_Website/assets/img/slider/slider2.jpg') top center / cover no-repeat",
-    "url('../TheBand_Website/assets/img/slider/slider3.jpg') top center / cover no-repeat"
+    "url('./assets/img/slider/slider1.jpg') top center / cover no-repeat",
+    "url('./assets/img/slider/slider2.jpg') top center / cover no-repeat",
+    "url('./assets/img/slider/slider3.jpg') top center / cover no-repeat"
 ];
 var arrHeadSliders = ["Chicago", "Los Angeles", "New York"];
 var arrDescSliders = ["Thank you, Chicago - A night we won't forget.", "We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum."];
@@ -64,7 +64,12 @@ modalContainer.addEventListener('click', function(event) {
 // MOBILE MENU HEADER
 const menuBtn = document.querySelector(".mobile-menu-btn");
 const nav = document.querySelector("#nav");
+const main = document.getElementById("main");
 
 menuBtn.onclick = function() {
     nav.classList.toggle("overflow");
 }
+
+main.onclick = function() {}
+
+console.log(main)
