@@ -10,7 +10,7 @@ var arrSliders = [
 ];
 var arrHeadSliders = ["Chicago", "Los Angeles", "New York"];
 var arrDescSliders = ["Thank you, Chicago - A night we won't forget.", "We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum."];
-var index = 0;
+var index = 1;
 
 setInterval(function() {
     Object.assign(slider.style, {
