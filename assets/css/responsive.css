@@ -72,6 +72,7 @@
         height: 100%;
         font-size: 34px;
         background: #000;
+        margin-top: -1px;
     }
     #nav>li>a {
         display: flex;

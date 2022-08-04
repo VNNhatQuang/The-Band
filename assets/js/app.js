@@ -69,7 +69,3 @@ const main = document.getElementById("main");
 menuBtn.onclick = function() {
     nav.classList.toggle("overflow");
 }
-
-main.onclick = function() {}
-
-console.log(main)
